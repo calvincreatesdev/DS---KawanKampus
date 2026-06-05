@@ -1,0 +1,10 @@
+# Folder Notebook (tidak perlu diupload ke public repo)
+notebooks/
+
+# Folder Dataset (opsional, kalau datanya privat)
+# data/
+
+# Folder lingkungan virtual/konfigurasi sistem
+.ipynb_checkpoints/
+.DS_Store
+__pycache__/
