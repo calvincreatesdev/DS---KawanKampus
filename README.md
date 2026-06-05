@@ -35,19 +35,19 @@
 ## Struktur Repository
 ```text
 Kawan-Kampus/
-├── Assets/               # Branding & visual assets
+├── Assets/               
 │
 ├── Data/
 │   ├── kawankampus_cleaned_data.csv
 │   ├── kawankampus_feature_engineered.csv
-│   ├── kawankampus_master_dataset.csv        # Main Data     
+│   ├── kawankampus_master_dataset.csv # Main Dataset     
 │
-├── Raw Dataset/          # Original source files
-├── dashboard.py          # Streamlit Main App
-├── eda.ipynb             # Exploratory Data Analysis Notebook
-├── wrangling_data.ipynb  # Wrangling & Feature Engineering Notebook
-├── requirements.txt      # Project dependencies
+├── Raw Dataset/          
+├── dashboard.py          
+├── eda.ipynb             
+├── wrangling_data.ipynb  
+├── requirements.txt      
 ├── AB_Testing_Analysis
 ├── KAWAN KAMPUS | TECHNICAL COMPREHENSIVE REPORT
 ├── Data Dictionary_Kawan Kampus Master Dataset
-└── README.md             # Documentation
+└── README.md             
