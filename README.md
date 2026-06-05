@@ -22,14 +22,18 @@
 ## https://imrn7fr247rul99qeaupa8.streamlit.app/
 *   Visualisasi interaktif menggunakan Streamlit untuk mempermudah *stakeholder* memahami *spatial distribution* dan *risk assessment* infrastruktur.
 
-## 🛠️ Tech Stack
+
+
+## Tech Stack
 * **Language:** Python
 * **Data Processing:** Pandas, NumPy
 * **EDA & Visualization:** Seaborn, Matplotlib
 * **Dashboarding:** Streamlit
 * **Environment:** Conda (Anaconda)
 
-## 📂 Struktur Repositori
+
+
+## Struktur Repository
 ```text
 Kawan-Kampus/
 ├── Assets/               # Branding & visual assets
