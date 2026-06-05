@@ -19,8 +19,7 @@
 *   **Spatial Analysis:** Mengimplementasikan *Haversine distance formula* berbasis koordinat (latitude/longitude) untuk mengkategorikan jarak tempuh (dekat, standar, jauh) antara kampus dan destinasi.
 
 ### 4. Dashboarding
-## https://imrn7fr247rul99qeaupa8.streamlit.app/
-*   Visualisasi interaktif menggunakan Streamlit untuk mempermudah *stakeholder* memahami *spatial distribution* dan *risk assessment* infrastruktur.
+*   **https://imrn7fr247rul99qeaupa8.streamlit.app/**
 
 
 
