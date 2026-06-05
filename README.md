@@ -1,29 +1,42 @@
 # Kawan Kampus: Data Science Path
 
-![Logo Kawan Kampus](Assets/logo_kawan_kampus.png)
+## Project Lifecycle
+Untuk menghasilkan *dashboard* yang akurat, alur kerja proyek ini meliputi beberapa tahapan teknis:
 
-https://imrn7fr247rul99qeaupa8.streamlit.app/
+### 1. Data Wrangling (Gathering, Assessing, Cleaning)
+*   **Handling Bus Stops:** Memberikan *value* 0 pada kategori *bus stop* karena berfungsi sebagai titik jemput/transisi (bukan destinasi utama).
+*   **Data Type Conversion:** Mengonversi *total reviews* dari tipe desimal menjadi numerik integer agar bisa diolah secara matematis.
+*   **Feature Reduction:** Menghapus kolom *komentar populer* yang tidak relevan dengan analisis spasial untuk meningkatkan performa dataset.
+*   **Data Cleaning:** Menangani *missing values* dan menstandarisasi format data antar kampus.
 
-*Dashboard* ini adalah **Decision Support Tools** yang dirancang untuk mengevaluasi infrastruktur perkotaan dan aksesibilitas fasilitas bagi mahasiswa. Dengan memanfaatkan *spatial data*, proyek ini memberikan *actionable insights* untuk mengoptimalkan *AI-based recommendation system* dan layanan fasilitas kampus.
+### 2. Exploratory Data Analysis (EDA)
+*   Menemukan pola distribusi fasilitas di berbagai radius kampus.
+*   Analisis korelasi antara jarak tempuh dengan *User Trust Score*.
+*   Identifikasi anomali data (misal: membandingkan fasilitas yang sangat populer vs fasilitas *underrated*).
 
-## 🚀 Fitur Utama & Kemampuan Analitik
-* **Spatial Accessibility Mapping:** Mengevaluasi distribusi fasilitas berdasarkan radius transit (Jalan Kaki vs. Bermotor).
-* **Hidden Gems Discovery:** Menggunakan analisis kuadran untuk mengidentifikasi fasilitas produktivitas (Cafe/Kedai) yang berkualitas tinggi namun berada di area periferal.
-* **Emergency Risk Mitigation:** Mendeteksi "Zona Merah" atau area dengan *critical gap* pada infrastruktur medis darurat (Apotek).
-* **Commuter Mobility Insights:** Menganalisis kesenjangan antara halte transportasi publik formal dengan ekspansi logistik ritel (Minimarket).
-* **Bias-Aware Recommendation:** Menggunakan *logarithmic distribution analysis* untuk melawan *popularity bias* dan menonjolkan fasilitas berkualitas yang *underrated*.
+### 3. Feature Engineering
+*   **Skor Kepercayaan:** Menggabungkan *rating* dan *total reviews* untuk menciptakan metrik *place reliability*.
+*   **Popularity Index:** Klasifikasi tempat populer berdasarkan volume *total reviews*.
+*   **Spatial Analysis:** Mengimplementasikan *Haversine distance formula* berbasis koordinat (latitude/longitude) untuk mengkategorikan jarak tempuh (dekat, standar, jauh) antara kampus dan destinasi.
+
+### 4. Dashboarding
+*   Visualisasi interaktif menggunakan Streamlit untuk mempermudah *stakeholder* memahami *spatial distribution* dan *risk assessment* infrastruktur.
 
 ## 🛠️ Tech Stack
-* **Language:** Python
-* **Web Framework:** Streamlit
-* **Analytical Libraries:** Pandas, Seaborn, Matplotlib
-* **Deployment:** Streamlit Cloud
+* **Language:** Python 3.x
+* **Data Processing:** Pandas, NumPy
+* **EDA & Visualization:** Seaborn, Matplotlib
+* **Dashboarding:** Streamlit
+* **Environment:** Conda (Anaconda)
 
 ## 📂 Struktur Repositori
 ```text
-├── assets/             # Branding & visual assets
-├── data/               # Master datasets
-├── notebooks/          # EDA & Feature Engineering workstreams
-├── dashboard.py        # Main Streamlit application entry point
+Kawan-Kampus/
+├── Assets/             # Branding & visual assets
+├── Data/               # Master datasets & processed files
+├── Raw Dataset/        # Original source files
+├── dashboard.py        # Streamlit Main App
+├── eda.ipynb           # Exploratory Data Analysis Notebook
+├── wrangling_data.ipynb# Wrangling & Feature Engineering Notebook
 ├── requirements.txt    # Project dependencies
 └── README.md           # Documentation
