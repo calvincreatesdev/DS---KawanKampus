@@ -47,4 +47,7 @@ Kawan-Kampus/
 ├── eda.ipynb             # Exploratory Data Analysis Notebook
 ├── wrangling_data.ipynb  # Wrangling & Feature Engineering Notebook
 ├── requirements.txt      # Project dependencies
+├── AB_Testing_Analysis
+├── KAWAN KAMPUS | TECHNICAL COMPREHENSIVE REPORT
+├── Data Dictionary_Kawan Kampus Master Dataset
 └── README.md             # Documentation
