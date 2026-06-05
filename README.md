@@ -19,10 +19,11 @@
 *   **Spatial Analysis:** Mengimplementasikan *Haversine distance formula* berbasis koordinat (latitude/longitude) untuk mengkategorikan jarak tempuh (dekat, standar, jauh) antara kampus dan destinasi.
 
 ### 4. Dashboarding
+## https://imrn7fr247rul99qeaupa8.streamlit.app/
 *   Visualisasi interaktif menggunakan Streamlit untuk mempermudah *stakeholder* memahami *spatial distribution* dan *risk assessment* infrastruktur.
 
 ## 🛠️ Tech Stack
-* **Language:** Python 3.x
+* **Language:** Python
 * **Data Processing:** Pandas, NumPy
 * **EDA & Visualization:** Seaborn, Matplotlib
 * **Dashboarding:** Streamlit
@@ -31,11 +32,16 @@
 ## 📂 Struktur Repositori
 ```text
 Kawan-Kampus/
-├── Assets/             # Branding & visual assets
-├── Data/               # Master datasets & processed files
-├── Raw Dataset/        # Original source files
-├── dashboard.py        # Streamlit Main App
-├── eda.ipynb           # Exploratory Data Analysis Notebook
-├── wrangling_data.ipynb# Wrangling & Feature Engineering Notebook
-├── requirements.txt    # Project dependencies
-└── README.md           # Documentation
+├── Assets/               # Branding & visual assets
+│
+├── Data/
+│   ├── kawankampus_cleaned_data.csv
+│   ├── kawankampus_feature_engineered.csv
+│   ├── kawankampus_master_dataset.csv        # Main Data     
+│
+├── Raw Dataset/          # Original source files
+├── dashboard.py          # Streamlit Main App
+├── eda.ipynb             # Exploratory Data Analysis Notebook
+├── wrangling_data.ipynb  # Wrangling & Feature Engineering Notebook
+├── requirements.txt      # Project dependencies
+└── README.md             # Documentation
