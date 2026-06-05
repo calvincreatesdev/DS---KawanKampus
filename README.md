@@ -1,7 +1,6 @@
 # Kawan Kampus: Data Science Path
 
 ## Project Lifecycle
-Untuk menghasilkan *dashboard* yang akurat, alur kerja proyek ini meliputi beberapa tahapan teknis:
 
 ### 1. Data Wrangling (Gathering, Assessing, Cleaning)
 *   **Handling Bus Stops:** Memberikan *value* 0 pada kategori *bus stop* karena berfungsi sebagai titik jemput/transisi (bukan destinasi utama).
