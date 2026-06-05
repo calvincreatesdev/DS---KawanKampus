@@ -18,7 +18,7 @@
 *   **Popularity Index:** Klasifikasi tempat populer berdasarkan volume *total reviews*.
 *   **Spatial Analysis:** Mengimplementasikan *Haversine distance formula* berbasis koordinat (latitude/longitude) untuk mengkategorikan jarak tempuh (dekat, standar, jauh) antara kampus dan destinasi.
 
-### 4. Dashboarding
+### 4. Dashboard
 *   **https://imrn7fr247rul99qeaupa8.streamlit.app/**
 
 
