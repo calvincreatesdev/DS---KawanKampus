@@ -1,8 +1,10 @@
-# Kawan Kampus: Urban Infrastructure & Spatial Analytics 2026
+# Kawan Kampus: Data Science Path
 
-![Logo Kawan Kampus](assets/logo_kawan_kampus.jpg)
+![Logo Kawan Kampus](Assets/logo_kawan_kampus.png)
 
-*Dashboard* ini adalah **Decision Support Tool** yang dirancang untuk mengevaluasi infrastruktur perkotaan dan aksesibilitas fasilitas bagi mahasiswa. Dengan memanfaatkan *spatial data*, proyek ini memberikan *actionable insights* untuk mengoptimalkan *AI-based recommendation system* dan layanan fasilitas kampus.
+https://imrn7fr247rul99qeaupa8.streamlit.app/
+
+*Dashboard* ini adalah **Decision Support Tools** yang dirancang untuk mengevaluasi infrastruktur perkotaan dan aksesibilitas fasilitas bagi mahasiswa. Dengan memanfaatkan *spatial data*, proyek ini memberikan *actionable insights* untuk mengoptimalkan *AI-based recommendation system* dan layanan fasilitas kampus.
 
 ## 🚀 Fitur Utama & Kemampuan Analitik
 * **Spatial Accessibility Mapping:** Mengevaluasi distribusi fasilitas berdasarkan radius transit (Jalan Kaki vs. Bermotor).
